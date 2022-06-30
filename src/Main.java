@@ -1,9 +1,9 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        task1();
+//        task1();
         task3();
-        task4();
+//        task4();
     }
 
     public static void task1() {
@@ -30,8 +30,12 @@ public class Main {
         float[] two = {1.57f, 7.654f, 9.986f};
 
         float[] three = {1.356f, 4.786f, 4.78754f, 9.986f, 5.654f, 6.6476f};
-        for (int i = three.length - 1; i > 0; i--) {
-            System.out.printf(three[i] + ",");
+        for (int i = three.length - 1; i >= 0; i--) {
+            if ( i >0)
+                System.out.printf(three[i] + ",");
+            else {
+                System.out.println(three[i]);
+            }
         }
 
     }
