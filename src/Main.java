@@ -12,7 +12,7 @@ public class Main {
         first[1] = 2;
         first[2] = 3;
         for (int i = 0; i < 3; i++) {
-            System.out.printf("Элемент массива c индексом " + i + " имеет знечние " + first[i] + "%n");
+            System.out.println("Элемент массива c индексом " + i + " имеет знечние " + first[i] );
         }
         float[] two = {1.57f, 7.654f, 9.986f};
         for (int i = 0; i < 3; i++) {
@@ -20,7 +20,7 @@ public class Main {
         }
         float[] three = {1.356f, 4.786f, 4.78754f, 9.986f, 5.654f, 6.6476f};
         for (int i = 0; i < three.length; i++) {
-            System.out.println(three[i]);
+            System.out.printf(three[i] + ",");
         }
 
     }
@@ -31,7 +31,7 @@ public class Main {
 
         float[] three = {1.356f, 4.786f, 4.78754f, 9.986f, 5.654f, 6.6476f};
         for (int i = three.length - 1; i > 0; i--) {
-            System.out.println(" Эначение элементы массива three с индексом " + i + " имеет значение " + three[i]);
+            System.out.printf(three[i] + ",");
         }
 
     }
